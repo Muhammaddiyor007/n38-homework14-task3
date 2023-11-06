@@ -1,0 +1,12 @@
+.light {
+  background-color: white;
+}
+
+.light * {
+  color: white !important;
+}
+
+.light .navbar-link {
+  color: red;
+  background-color: aqua;
+}
