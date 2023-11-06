@@ -30,3 +30,10 @@ inner_nav_btns.forEach((item) => {
     nav.style.transform = "translateX(-100%)";
   });
 });
+const loading = document.getElementById("loading");
+
+const loadingDuration = 2000; // 2s
+
+setTimeout(() => {
+  loading.classList.add('loading-none');
+}, loadingDuration);
